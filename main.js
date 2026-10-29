@@ -2,7 +2,7 @@ import * as THREE from 'three';
 
 // ESCENA
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x141826); //0xf0f0f0
+scene.background = new THREE.Color(0xf0f0f0); //0xf0f0f0  0x141826
 
 // CÁMARA 
 const camera = new THREE.PerspectiveCamera(
@@ -22,7 +22,7 @@ document.body.appendChild(renderer.domElement);
 // OBJETOS MESH
 const geometry = new THREE.BoxGeometry(1.5, 1.5, 1.5);
 const material = new THREE.MeshStandardMaterial({
-  color: 0x0066cc,
+  color: 0xff0000,
   roughness: 0.3,
   metalness: 0.8
 });
